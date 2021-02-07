@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+@import url('https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700,700italic&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Aladin:regular&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'B52';
+    src: url('../fonts/B52.woff2') format('woff2'),
+        url('../fonts/B52.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bemol-CapsMix2';
+    src: url('../fonts/Bemol-CapsMix2.woff2') format('woff2'),
+        url('../fonts/Bemol-CapsMix2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pobeda';
+    src: url('../fonts/Pobeda-Regular.woff2') format('woff2'),
+        url('../fonts/Pobeda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FK Aladdin';
+    src: url('../fonts/FKAladdin.woff2') format('woff2'),
+        url('../fonts/FKAladdin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	background-color: rgba(0, 0, 0, 0.925);
+	color: white;
+}
+/* ====================================================================================== */
+.nav {
+	width: 1050px;
+	margin: 0 auto 90px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 7px 5px 10px 0px rgb(190, 1, 1);
+	text-align: center;
+}
+.nav a {
+	color: white;
+	padding: 0 15px;
+	font-size: 20px;
+	line-height: 60px;
+}
+.nav img {
+	margin: 0 50px 0 0 ;
+}
+.nav .botton_info {
+	background-color: rgb(235, 1, 1);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin-left: 25px;
+}
+
+/* ====================================================================================== */
+
+.main {
+	font-size: 18px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	margin: 50px 0;
+}
+.subtitle {
+	font-size: 24;
+	margin: 30px 60px;
+}
+.paragraph {
+	margin: 0 auto 30px;
+	max-width: 1000px;
+}
+.paragraph li {
+	padding: 10px;
+}
+.info {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0px;
+}
+.info h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.info img {
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	font-size: 16px;
+}
+.paragraph_1 {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+ h2 {
+	margin: 50px 0 40px 0;
+	font-weight: 700;
+	font-size: 39px;
+	text-shadow: 5px 4px 1px rgb(0, 33, 179);
+}
+.text_1 span {
+	display: block;
+	padding: 0 0 10px 0;
+}
+.text_1 img {
+	float: right;
+	margin: 0 10px;
+}
+.item {
+	clear: both;
+}
+/* =========================================== */
+.text_2 img {
+	float: left;
+	padding: 10px;
+}
+.text_2 span {
+	display: block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+
+.text_2 p {
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: normal;
+}
+/* ============================================ */
+.text_3 span {
+	padding: 10px;
+	background-color: rgba(6, 236, 179, 0.493);
+	border-radius: 0 20px 20px 0px;
+	line-height: 40px;
+}
+.text_3 img {
+	box-shadow: 5px 5px 10px 3px crimson;
+	margin-bottom: 20px;
+}.text_3 p {
+	font-family: 'Philosopher' ;   /* Подключил новый шрифт */
+}
+/* ============================================ */
+.text_4 img {
+	float: right;
+	border-radius: 290px 0px 290px 0px;
+}
+.text_4 p {
+	word-spacing: 15px;     /* отступ между словами */
+}
+/* ============================================= */
+.text_5 img {
+	float: right;
+	padding: 0 0 30px 30px;
+}
+.text_5 span {
+	font-family: 'B52';    /* Подключил новый шрифт */
+	font-size: 20px;
+	display: block;
+	padding: 10px;
+}
+/* ============================================= */
+.taxt_6 img {
+	padding: 30px;
+	box-shadow: 1px -5px 7px 1px cyan,1px 4px 10px 1px rgb(255, 81, 0);
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+.taxt_6 {
+	text-shadow: 10px 1px 10px rgb(241, 241, 237),3px 0px 1px rgb(238, 9, 9);
+	text-indent: 30px;
+}
+.taxt_6 p {
+	padding: 15px;
+	border: solid;
+}
+/* ================================================ */
+.text_7 img {
+	float: left;
+	padding: 25px;
+	border: dashed;
+	border-radius: 100px 0 0 557px;
+}
+.item {
+	clear: both;
+}
+.text_7 p {
+	text-decoration: line-through;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+	opacity: 0.3;      /* Установили прозрачнось элементу(можем кликать) */
+}
+/* =============================================== */
+.text_8 img {
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+.text_8 p {
+	margin-top: -350px;	
+	line-height: 250%;
+}
+.text_8 span {
+	font-style: italic;
+	text-shadow: 1px 2px 7px rgb(3, 3, 3);
+	font-weight: 900;
+}
+/* ================================================ */
+.text_9 p {
+	max-width: 800px;
+	background-color: rgb(0, 140, 255);
+	margin: 30px 0px 30px 210px;
+	padding: 10px 25px;
+	box-shadow: 4px 7px 20px 20px rgb(243, 241, 241),5px 8px 10px 22px rgb(231, 235, 1);
+	border-radius: 20px;
+}
+.text_9 img {
+	border-radius: 20px;
+}
+.text_10 img {
+	float: left;
+	padding: 50px;
+}
+.text_10 span {
+	display: block;
+	font-family: 'Bemol-CapsMix2';   /* Подключил новый шрифт */
+	font-size: 25px;
+}
+.text_10 .item {
+	clear: both;
+}
+.text_11_paragraph {
+	color: rgb(255, 113, 61);
+	text-shadow: 1px -3px 1px rgb(248, 136, 8);
+	text-align: right;
+	border-right: 4px solid rgb(248, 136, 8);   /* Граница толко спрва */
+	padding-right: 10px;
+}
+.text_12 {
+	background-color: rgb(163, 166, 192);
+	padding-bottom: 5px;
+}
+.text_12 p {
+	margin: 5px 5px;
+	padding: 15px;
+	font-size: 20px;
+	text-indent: 13px;
+	line-height: 17px;
+	border: 2px solid rgb(37, 252, 30);
+}
+.text_13 p {
+	border: 2px solid crimson;
+	margin: 10px 40px;
+	padding: 50px;
+	width: 600px;
+	text-shadow: 1px 4px 6px rgb(240, 236, 236);
+	text-align: center;
+	font-family: 'lato';
+}
+.item {
+	clear: both;
+}
+.text_13 img {
+	float: right;
+	padding: 0px 40px;
+}
+.text_13 span {
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	text-transform: uppercase;
+	font-family: 'lato';
+}
+.text_14 p {
+	color: rgba(248, 241, 241, 0.705);
+	font-weight: 700;
+	background-color: rgba(0, 0, 139, 0.336);
+	width: 770px;
+	height: 424px;
+	margin: -424px 0 70px 0px;
+	overflow: auto;
+}
+.text_15 p {
+	margin: 40px 20px;
+	font-family: 'Pobeda';   /* Подключил новый шрифт */
+	font-size: 20px;
+}
+.text_15 img {
+	padding: 10px;
+	background-color: burlywood;
+	border: 20px dotted;
+}
+
+.text_16 p {
+	font-family: 'B52';
+	font-size: 18px;
+	letter-spacing: 4px;
+	word-spacing: 10px;
+	line-height: 20px;
+	color: crimson;
+	margin: 10px 20px 30px 20px;
+}
+.text_16 span {
+	color: cadetblue;
+	font-weight: 600;
+}
+.text_16 img {
+	padding: 10px;
+	box-shadow: inset 10px 1px 10px 2px crimson;
+
+}
+.text_17 .paragraph {
+	color: black;
+	margin: 40px;
+	box-shadow: inset 1px 5px 40px 60px rgb(0, 48, 138);
+	background-color: rgb(255, 253, 253);
+}
+.text_17 img {
+	margin: 0 0 0 370px;
+	border-radius: 50%;
+}
+.text_18 p {
+	margin: 30px auto 30px;
+	width: 800px;
+	padding: 40px;
+	background-color: brown;
+	border-radius: 0 90px 0 90px;
+}
+.text_18 img {
+	border-radius: 0 90px 0 90px;
+}
+.text_19 {
+	color: rgb(3, 13, 161);
+	border: dotted;
+}
+.text_19 p {
+	margin: 20px;
+	padding: 5px;
+	border: 7px dashed;
+	color: rgb(0, 0, 190);
+}
+.text_20 img {
+	border-radius: 900px 900px 900px 2px;
+	border-left: 4px dotted rgb(148, 13, 13);
+	border-right: 5px dashed rgb(255, 174, 0);
+	box-shadow: 2px 5px 10px 5px cornflowerblue, 2px 10px 10px 5px rgb(10, 87, 230), 2px 10px 5px 5px rgb(1, 49, 139);
+}
+.text_20 p {
+	margin: 10px;
+	font-family: 'FK Aladdin';  /* Подключил новый шрифт */
+	font-size: 30px;
+}
+.footer {
+	background-color: rgb(167, 167, 167);
+	color: crimson;
+	padding-bottom: 30px;
+}
+.footer span {
+	display: block;
+	
+}
+.footer_nav {
+	padding: 20px 0 20px 30px;
+}
+.footer_info {
+	margin: 0px 0 0 100px;
+}
+.footer_top {
+	display: block;
+	margin: 10px 0 40px 150px;
+}
